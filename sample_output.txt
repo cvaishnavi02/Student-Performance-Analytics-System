@@ -1,0 +1,78 @@
+
+============================================================
+STUDENT PERFORMANCE ANALYTICS SYSTEM
+============================================================
+Number of students: 20
+
+Dataset preview:
+Student ID         Name Department  Python  Mathematics  AI  Data Analysis  Attendance
+     ST001  Aarav Kumar        CSE      92           88  95             90          96
+     ST002   Diya Reddy        CSE      85           91  87             89          94
+     ST003 Rahul Sharma        ECE      76           80  72             78          88
+     ST004   Ananya Rao        CSE      95           94  98             96          99
+     ST005 Vikram Patel        EEE      64           70  68             66          82
+
+============================================================
+STUDENT-WISE RESULTS
+============================================================
+Student ID         Name  Total  Average Grade Result
+     ST001  Aarav Kumar    365    91.25    A+   Pass
+     ST002   Diya Reddy    352    88.00     A   Pass
+     ST003 Rahul Sharma    306    76.50     B   Pass
+     ST004   Ananya Rao    383    95.75    A+   Pass
+     ST005 Vikram Patel    268    67.00     C   Pass
+     ST006 Saanvi Naidu    349    87.25     A   Pass
+     ST007  Kiran Kumar    235    58.75     D   Pass
+     ST008    Meera Das    306    76.50     B   Pass
+     ST009  Arjun Singh    210    52.50     D   Fail
+     ST010 Ishita Verma    365    91.25    A+   Pass
+     ST011  Rohan Reddy    184    46.00     E   Pass
+     ST012   Nisha Paul    329    82.25     A   Pass
+     ST013     Sai Teja    275    68.75     C   Pass
+     ST014  Pooja Menon    385    96.25    A+   Pass
+     ST015   Aditya Rao    154    38.50     F   Fail
+     ST016      Kavya S    318    79.50     B   Pass
+     ST017  Manoj Kumar    231    57.75     D   Pass
+     ST018  Tara Joseph    355    88.75     A   Pass
+     ST019  Harish Babu    286    71.50     B   Pass
+     ST020 Lavanya Devi    362    90.50    A+   Pass
+
+============================================================
+CLASS SUMMARY
+============================================================
+Class average: 75.22
+Highest student average: 96.25
+Lowest student average: 38.50
+Students passed: 18
+Students failed: 2
+Average attendance: 87.35%
+
+============================================================
+SUBJECT-WISE AVERAGES
+============================================================
+Python: 73.50
+Mathematics: 74.95
+AI: 76.60
+Data Analysis: 75.85
+
+============================================================
+TOP PERFORMERS
+============================================================
+Student ID         Name  Average Grade
+     ST014  Pooja Menon    96.25    A+
+     ST004   Ananya Rao    95.75    A+
+     ST010 Ishita Verma    91.25    A+
+
+Detailed results saved to student_analysis_results.csv
+
+ERRORS:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
